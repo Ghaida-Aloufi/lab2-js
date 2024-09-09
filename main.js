@@ -124,3 +124,50 @@ if(words.find('javascript')){
 }
 
 
+
+
+
+
+
+
+///Function
+
+//1 الجمع
+function sum(num1,num2){
+  return num1+num2
+}
+let sum =sum(3,4)
+console.log(sum);
+
+
+//2 الطرح
+
+function sub(num1,num2){
+  return num1-num2
+}
+let sub =sub(3,4)
+console.log(sub)
+
+//3 الضرب
+
+function multiply(num1,num2){
+  return num1*num2
+}
+let multiply =multiply(3,4)
+console.log(multiply);
+
+
+//4 القسمة
+function divide(num1,num2){
+  return num1/num2
+}
+let divide =divide(3,4)
+console.log(divide);
+
+//5 باقي القسمة
+
+function division2(num1,num2){
+  return num1%num2
+}
+let division2 =division2(3,4)
+console.log(division2);
